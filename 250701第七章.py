@@ -167,5 +167,5 @@ while active:
     if repeat=='no':
         active=False
 print(dic)
-for name,place in dic:
+for name,place in dic.items():
     print(f"{name} want to go {place} for vacation")
